@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Engine Demo"
+rootProject.name = "Tile Puzzle"
 include(":app")

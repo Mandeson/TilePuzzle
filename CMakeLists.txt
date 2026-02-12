@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(EngineDemo)
+project(TilePuzzle)
 
 find_package(Git QUIET)
 execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive
-                WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-                RESULT_VARIABLE GIT_SUBMODULE_RESULT)
+               WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+               RESULT_VARIABLE GIT_SUBMODULE_RESULT)
 if(NOT GIT_SUBMODULE_RESULT EQUAL "0")
     message(WARNING "Could not download Engine submodule. Check git install and internet connection.")
 endif()

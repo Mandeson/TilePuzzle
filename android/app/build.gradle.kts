@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.enginedemo"
+    namespace = "com.example.tilepuzzle"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.enginedemo"
+        applicationId = "com.example.tilepuzzle"
         minSdk = 21
         targetSdk = 36
         versionCode = 1
